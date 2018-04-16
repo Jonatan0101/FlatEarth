@@ -87,6 +87,17 @@ nav a{
     transform: translateY(5rem);
 }
 
+.discord {
+    margin: 3rem 0;
+}
+.info p{
+    font-size: 2rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+
+
 @media only screen and (max-width: 500px){
     nav {
         flex-direction: column;
