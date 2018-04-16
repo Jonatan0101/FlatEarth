@@ -4,11 +4,13 @@
 }
 
 body {
+    background-color: black;
     width: 80%;
     margin: 1rem auto;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 10px;
+    color: white;
     background-image: url('img/img.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -57,6 +59,32 @@ nav a{
 
 .active {
     color: #279af1;
+    font-size: 2rem;
+}
+
+.warning{
+    position: absolute;
+    font-size: 1.5rem;
+    left: 0%;
+        color: red;
+}
+
+/* PayPal Button******************************/
+
+.paypal {
+    border: #ffffff solid 2px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+
+}
+.paypal:hover{
+    border: #279af1 solid 2px; 
+    font-size: 4rem;
+}
+.paypal:active{
+    background-color: #279af1;
+    color: white;
+    transform: translateY(5rem);
 }
 
 @media only screen and (max-width: 500px){
