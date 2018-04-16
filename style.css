@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 h1 {
     font-size: 5rem;
@@ -57,4 +57,21 @@ nav a{
 
 .active {
     color: #279af1;
+}
+
+@media only screen and (max-width: 500px){
+    nav {
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .header a {
+        color: white;
+    }
+    nav a{
+        margin: 0.5rem 0;
+    }
 }
