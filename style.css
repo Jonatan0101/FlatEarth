@@ -72,19 +72,14 @@ nav a{
 /* PayPal Button******************************/
 
 .paypal {
-    border: #ffffff solid 2px;
+    border: grey solid 2px;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-
+    color: grey;
 }
 .paypal:hover{
-    border: #279af1 solid 2px; 
-    font-size: 4rem;
-}
-.paypal:active{
-    background-color: #279af1;
-    color: white;
-    transform: translateY(5rem);
+    cursor: not-allowed;
+    color: grey;
 }
 
 .discord {
